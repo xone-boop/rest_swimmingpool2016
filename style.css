@@ -539,7 +539,7 @@ footer .credit a:hover {
 
 /* Tablet */
 @media (max-width: 767px) {
-  html { font-size: 62.5%; 
+  html { font-size: 85%; 
     } 
  #produk-menu { 
   display: inline-block;
@@ -581,7 +581,7 @@ footer .credit a:hover {
  /* Mobile */
 @media (max-width: 480px)  { 
   html { 
-font-size: 60%; 
+font-size: 75%; 
 }
 
  .navbar .navbar-nav { 
