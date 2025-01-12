@@ -531,67 +531,79 @@ footer .credit a:hover {
   html {
     font-size: 80%;
   }
-  .contact .btnwhatsapp .btn:hover{
+  .contact .btnwhatsapp .btn:hover {
     text-align: center;
-
   }
 }
 
 /* Tablet */
 @media (max-width: 767px) {
-  html { font-size: 85%; 
-    } 
- #produk-menu { 
-  display: inline-block;
+  html {
+    font-size: 90%; /* Ubah font-size agar lebih besar */
   }
- .navbar .navbar-nav { 
-  flex-direction: column;
-   position: absolute; 
-  top: 100%; right: -100%; 
-  background-color: #fff; 
-   width: 30rem; 
-   height: 100vh; 
- transition: 0.3s; 
-    } 
-    .navbar .navbar-nav.active { 
-      right: 0; 
-    } 
-    .navbar .navbar-nav a { 
-      color: #000; 
-      display: block; 
-      margin: 1.5rem;
-      padding: 0.5rem; 
-      font-size: 2rem;
-  } 
+
+  #produk-menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: #000;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
   .about .row {
-   flex-wrap: wrap; 
-   } 
-  .about .row .about-img img { 
-   height: 24rem; 
-    object-fit: cover; 
-    object-position: center; 
-      } 
-   .about .row .content { 
-    padding: 0; 
-    } 
-  .about .row .content h3 { 
-    margin-top: 1rem; 
-    } 
- } 
- /* Mobile */
-@media (max-width: 480px)  { 
-  html { 
-font-size: 75%; 
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+  }
 }
 
- .navbar .navbar-nav { 
-    width: 100%; 
-   height: auto; 
-} 
-.navbar .navbar-nav a { 
-  font-size: 1.8rem; 
-} 
-.about .row .about-img img { 
-  height: 20rem; 
-}
+/* Mobile */
+@media (max-width: 480px) {
+  html {
+    font-size: 85%; /* Ubah font-size agar lebih besar */
+  }
+
+  .navbar .navbar-nav {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar .navbar-nav a {
+    font-size: 2rem; /* Ubah font-size agar lebih besar */
+  }
+
+  .about .row .about-img img {
+    height: 22rem; /* Ubah ukuran gambar agar lebih sesuai */
+  }
 }
